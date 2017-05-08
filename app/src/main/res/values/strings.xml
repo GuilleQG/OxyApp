@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">OxyApp</string>
+    <string name="app_name">OXY Bike</string>
+    <string name="exercise">Exercise</string>
+    <string name="slow_down">Slow down!</string>
+    <string name="have_a_break">Have a break!</string>
+    <string name="enjoy_riding">Enjoy riding!</string>
+    <string name="status">Status</string>
+    <string name="pulse">Pulse</string>
+    <string name="spo2">Spo2</string>
 </resources>
