@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.gorillas.oxyapp.MainActivity">
+    tools:context="com.gorillas.oxyapp.MainActivity"
+    android:weightSum="1">
 
 
     <RelativeLayout
@@ -60,12 +61,24 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="10dp"/>
 
+
+
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="100px"
+        android:layout_height="100px"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:id="@+id/imageView_status"/>
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="400px"
+        android:layout_weight="0.34" />
+
+
+
 
     <TextView
         android:layout_width="wrap_content"
